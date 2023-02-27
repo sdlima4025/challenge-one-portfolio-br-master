@@ -1,0 +1,61 @@
+/*Sessão de Header/Title/Hero*/
+
+section.title {
+    background-color: #9a9a9a;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 32px;
+    
+    }
+    .tile__div {
+    display: flex;
+    margin-top: 100px;
+    }
+    .title__profile{
+    float: right;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 300px;
+    height: 300;
+    }
+    .title__container #sobremim {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    padding: 20px;
+      
+    }
+    .title__bio  {
+    margin: 40px;
+    padding: 20px;
+     font-family: relaway;
+     font-size: 52px;
+     font-weight: 700;
+     line-height: 61.05px;
+    }
+    .title__bio h3 {
+      
+      font-family: relaway;
+     font-size: 22px;
+     font-weight: 400;
+     line-height: 25.83px;
+    }
+    .title__subsection {
+     
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .title__network {
+     
+      display: flex;
+      align-items: center;
+      gap: 20px;
+     
+    }

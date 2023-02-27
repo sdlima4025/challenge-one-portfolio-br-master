@@ -1,0 +1,22 @@
+section.menu{
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    background-color: #CCC;
+    font-weight: bold;
+  }
+  .menu__header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+  }
+  .menu.title {
+      display: flex;
+      justify-content: center;
+  }
+  .menu__list .menu__list__item {
+     display: inline;
+     margin: 0 0 0 15px;
+     margin-right: 10px;
+  }

@@ -1,6 +1,6 @@
 /*Sessão de Header/Title/Hero*/
 .section__title {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -8,21 +8,21 @@
   gap: 208px;
   
   width: 1136px;
-  height: 368px;
+  height: 368px; */
   
   
-  /* Inside auto layout */
+  /* Inside auto layout 
   flex: none;
   order: 1;
-  flex-grow: 0;
+  flex-grow: 0; */
 }
 .title__div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
-  gap: 208px;
+  padding: 152px;
+  gap: 50px;
   
   width: 1136px;
   height: 368px;
@@ -49,7 +49,7 @@ flex-grow: 0;
 
 }
 .title__bio {
-  width: 751px;
+width: 751px;
 height: 122px;
 
 font-family: 'Raleway';
@@ -89,7 +89,7 @@ align-self: stretch;
 flex-grow: 0;
 }
 .title__network {
-  display: flex;
+display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
@@ -97,7 +97,6 @@ gap: 32px;
 
 width: 467px;
 height: 24px;
-
 
 /* Inside auto layout */
 flex: none;

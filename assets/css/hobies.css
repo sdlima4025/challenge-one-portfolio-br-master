@@ -17,7 +17,7 @@
     .hobbies__title {
         width: 82px;
         height: 38px;
-        
+        padding: 0 0 0 15px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -37,7 +37,20 @@
         flex-grow: 0; 
     }
     #hobbies {
-    
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 32px;
+            width: 1136px;
+            height: 244px;
+            flex: none;
+              flex-grow: 0;
+            order: 0;
+            flex-grow: 0;
+        
+
     }
     .hobbies__line {
         display: flex;

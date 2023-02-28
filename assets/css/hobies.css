@@ -1,0 +1,124 @@
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 1136px;
+    height: 244px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .hobbies__title {
+        width: 82px;
+        height: 38px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        
+        /* identical to box height */
+        text-align: center;
+        
+        /* Preto/100% */
+        color: #464646;
+        
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0; 
+    }
+    #hobbies {
+    
+    }
+    .hobbies__line {
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 1136px;
+    height: 174px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    .hobbies__box {
+        display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    
+    width: 176px;
+    height: 174px;
+    
+    /* Preto/branco */
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .hobbies__img {
+        width: 24px;
+    height: 37px;
+    
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #2A7AE4;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .hobbies__name {
+        width: 144px;
+    height: 19px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    
+    /* Preto/100% */
+    color: #464646;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    
+    }

@@ -21,5 +21,52 @@ background: #EAF2FD;
   width: 1136px;
   height: 255px;
 }
+.about__title {
+  width: 166px;
+  height: 38px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  
+  /* identical to box height */
+  
+  /* Preto/100% */
+  color: #464646;
+  
+  
+  /* Inside auto layout */
+  /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.about__paragraph {
+  width: 751px;
+height: 133px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Preto/100% */
+color: #464646;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
 
 

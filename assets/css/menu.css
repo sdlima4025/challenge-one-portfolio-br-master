@@ -1,8 +1,17 @@
+.all {
+position: absolute;
+width: 1440px;
+height: 5020px;
+left: 0px;
+top: 0px;
+
+/* Preto/05% */
+background: #F5F5F5;
+}
 section.menu{
     display: flex;
     align-items: center;  
     justify-content: space-around;
-    background-color: #CCC;
     font-weight: bold;
   }
   .menu__header {

@@ -1,44 +1,190 @@
-.formcontato{
-
+section.formcontato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    
+    width: 1440px;
+    height: 788px;
+    
+    /* Azul/10% */
+    background: #EAF2FD;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 #contato {
-
+   
 }
 .formcontato__contacto {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 64px 0px 0px;
+gap: 16px;
 
+width: 1136px;
+height: 660px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 .formcontato--esquerda {
-
+    width: 464px;
+    height: 593px;
+    
+    background: url(.jpg), #EDEDED;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 .formcontato__img {
-
+    width: 464px;
+    height: 593px;
+    
+    background: url(.jpg), #EDEDED;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 
 .formcontato__text {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 656px;
+    height: 596px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
 }
 .formcontato__title {
+    width: 123px;
+height: 38px;
 
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+
+/* identical to box height */
+
+/* Preto/100% */
+color: #464646;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 .formcontato__subtext{
-
-}
-.formcontato__subtext {
-
+    width: 656px;
+    height: 38px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* Preto/100% */
+    color: #464646;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 
 .formcontato__form {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
 
+width: 656px;
+height: 397px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 }
-.formcontato__inpu {
+.formcontato__input {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
 
+width: 656px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 }
 .formcontato__textarea {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 656px;
+    height: 133px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
 }
 .formcontato__botao {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    
+    width: 165px;
+    height: 51px;
+    
+    /* Azul/100% */
+    background: #2A7AE4;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
